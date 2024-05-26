@@ -1,0 +1,237 @@
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: 'Press Start 2P', sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #5300C8;
+  width: 1400px;
+  height: 30px;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+}
+
+header .logo {
+  width: 150px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+header h1 {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: white;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.gallery {
+  width: 758px;
+  padding-right: 40px;
+}
+
+.gallery h2 {
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #000;
+  padding: 10px;
+  margin: 0 0 20px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  height: 1115px;
+  margin-left: 10px;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+.product-card {
+  width: 196px;
+  height: 258px;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 10px;
+  border: 3px solid #000;
+  background: #5D04D9;
+  box-shadow: -5px 6px 3.3px 0px #00000040;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-card img {
+  width: 176px;
+  height: 174px;
+  border-radius: 10px;
+  border: 3px solid #000;
+}
+
+.product-card h3 {
+  width: 176px;
+  height: 20px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  color: #fff;
+  margin: 10px 0 5px;
+}
+
+.product-card .price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 176px;
+  height: 24px;
+  padding: 0 5px;
+}
+
+.product-card .price {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.8px;
+  color: #fff;
+}
+
+.product-card .delete-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.form-section {
+  width: 472px;
+  padding-top: 40px;
+}
+
+.form-section h2 {
+  width: 392px;
+  height: 48px;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+
+#product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#product-form input {
+  width: 392px;
+  height: 58px;
+  padding: 10px;
+  border: 2px solid #03318C;
+  border-radius: 60px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 20px;
+}
+
+::placeholder {
+  color: #03318C;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20.8px;
+  text-align: left;
+}
+
+.buttons {
+  width: 410px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons .btn-submit,
+.buttons .btn-clear {
+  width: 188px;
+  height: 55px;
+  border-radius: 15px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.buttons .btn-submit {
+  background: #03318C;
+  color: #fff;
+  border: 2px solid #03318C;
+}
+
+.buttons .btn-clear {
+  background: #fff;
+  color: #03318C;
+  border: 2px solid #03318C;
+}
+
+footer {
+  width: 1400px;
+  height: 110px;
+  padding: 30px 0 0 0;
+  background: #5300C8;
+  box-shadow: 0px -10px 9.5px 0px #00000040;
+  text-align: center;
+}
+
+.info-footer {
+  background-color: #5300C8;
+  width: 1400px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+}
+
+footer .logo {
+  width: 150px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+footer p {
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fff;
+  margin: 10px 0;
+}
+
+footer .copy {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+}

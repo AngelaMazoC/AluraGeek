@@ -1,0 +1,12 @@
+{
+  "name": "alura-geek",
+  "version": "1.0.0",
+  "description": "Sitio web AluraGeek",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}

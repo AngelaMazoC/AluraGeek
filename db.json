@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "name": "Hulk",
+      "price": "50000",
+      "imageUrl": "https://i.pinimg.com/originals/fa/10/68/fa1068df143a5f44bbcb011416aa53c3.png",
+      "id": 3
+    },
+    {
+      "name": "Capitán America",
+      "price": "60000",
+      "imageUrl": "https://cdn.pixabay.com/photo/2021/04/20/03/40/captain-america-6192855_1280.png",
+      "id": 4
+    },
+    {
+      "name": "Spiderman",
+      "price": "40000",
+      "imageUrl": "https://cdn.pixabay.com/photo/2023/02/24/07/40/spiderman-7810368_1280.png",
+      "id": 5
+    }
+  ]
+}
